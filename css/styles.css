@@ -1,18 +1,45 @@
 html {
   background-color: #dddddd;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  margin: -8px;
-  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+  padding: 8px 0px;
   color: #fff;
   background-color: rgb(2, 168, 68);
-  text-align: center;
+  text-align: left;
 }
 
-.h1 {
+.header h1 {
+  margin-left: 40px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+  list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 30px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid rgb();
+  border-radius: 90px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menu li a:hover {
+  background-color: rgb(4, 117, 49);
 }
 
 .img {
