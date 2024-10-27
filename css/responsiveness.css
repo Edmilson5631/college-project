@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+  .cookie-banner {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .cookie-banner {
+    padding: 10px;
+  }
+}
