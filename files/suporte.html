@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suporte</title>
+
+    <style>
+
+        html{
+            background: #c9c9c9;
+        }
+        body {
+  padding-bottom: 500px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+div input,
+div label {
+  display: block;
+}
+
+.radio label,
+.radio input,
+.radio span {
+  display: inline-block;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Ajuda</h1>
+
+    <form action="register.php" method="GET" >
+        <div>
+      <label>Nome:</label>
+      <input type="text" />
+    </form>
+    <div>
+        <label for="email">Digite o seu email</label>
+        <input type="email" name="email">
+      </div>
+
+
+     <div>
+        <label for="comment">Comentário</label>
+        <textarea name="comment" cols="30" rows="10" ></textarea>
+     </div>
+
+     <input type="reset" value="Limpar">
+
+     <input type="submit" value="Enviar">
+  </body>
+</html>
