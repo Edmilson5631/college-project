@@ -1,8 +1,13 @@
 html {
   background-color: #c9c9c9;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
 .img {
   width: 300px;
 }
