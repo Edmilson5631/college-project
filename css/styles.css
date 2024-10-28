@@ -1,7 +1,5 @@
 html {
   background-color: #dddddd;
-  margin: 0;
-  padding: 0;
 }
 
 .cookie-banner {
@@ -14,7 +12,7 @@ html {
   text-align: center;
   padding: 15px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
-  display: none; /* Oculto por padrão */
+  display: none;
 }
 
 .cookie-banner p {

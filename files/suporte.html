@@ -9,11 +9,52 @@
 
         html{
             background: #c9c9c9;
-            margin-top: 80px;
+        
         }
-        body {
-  padding-bottom: 500px;
+
+        h1{
+          padding: 20px;
+        }
+        body { 
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0;
+            font-family: Arial, sans-serif;
 }
+
+form {
+            border: 1px solid rgb(2, 168, 68);
+            padding:30px ;
+            padding-right: 43px;
+            border-radius: 5px;
+            width: 300px; 
+            background-color: rgb(2, 168, 68);
+        }
+
+        input {
+            width: 100%; 
+            padding: 8px;
+            margin: 10px 0; 
+            border: 1px solid rgb(2, 168, 68);
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%; 
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838; 
+        }
+
 
 div {
   margin-bottom: 10px;
@@ -55,25 +96,37 @@ style="
       <input type="text" />
     </form>
     <div>
-        <label for="email">Digite o seu email</label>
+        <label for="email">Digite o seu E-mail</label>
         <input type="email" name="email">
       </div>
 
 
      <div>
-        <label for="comment">Comentário</label>
+        <label for="comment">Mensagem</label>
         <textarea name="comment" cols="30" rows="10" ></textarea>
      </div>
+
+     <div class="box-input">
+      <p>Enviar arquivos<span class="required-field"></span></p>
+      <input
+        type="file"
+        multiple
+        accept="image/png, image/jpg"
+        id="images"
+        name="images"
+        required
+      />
+    </div>
 
      <input type="reset" value="Limpar">
 
      <input type="submit" value="Enviar">
 
      <h2>Contate-nos</h2>
-     <p>E-mail: <a href="mailto:seuemail@exemplo.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email">iogurtegrego@example.com</a>
+     <p>E-mail: <a href="mailto:seuemail@exemplo.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email" style="text-decoration: none;">Iogurtegrego@example.com</a>
      </p>
 
      
-     <p>Telefone: 11 90000-0000</p>
+     <p>Telefone: 0800-000-0000</p>
   </body>
 </html>

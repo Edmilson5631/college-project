@@ -3,17 +3,25 @@ html {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
 .img {
   width: 300px;
 }
 
 header {
   margin: 30px;
+}
+
+.container {
+  max-width: 900px;
+  position: relative;
+  margin: 50px auto;
+  background-color: rgb(2, 168, 68);
+  padding: 40px;
+  border-radius: 50px;
+  color: #333;
 }
 
 .container li {
